@@ -1,0 +1,21 @@
+source ~/.vimrc
+nmap <leader>gd <Action>(GotoSuperMethod)<CR>
+nmap gd <Action>(GotoDeclarationOnly)<CR>
+nmap gD <Action>(GotoImplementation)<CR>
+nnoremap ge :action GotoNextError<CR>
+nnoremap gE :action GotoPreviousError<CR>
+nmap gu :action ShowUsages<CR>
+nmap gh :action QuickJavaDoc<CR>
+nmap H :action Back<CR>
+nmap L :action Forward<CR>
+nmap <leader>r :action Run<CR>
+nmap <leader>R :action Debug<CR>
+nmap <leader>t :action RunClass<CR>
+nmap <leader>T :action DebugClass<CR>
+nmap <leader>l :action ToggleLineBreakpoint<CR>
+nmap <leader>j <Action>(PreviousTab)<CR>
+nmap <leader>k <Action>(NextTab)<CR>
+nmap <leader>b <Action>(ActivateBuildToolWindow)<CR>
+nmap <leader>s <Action>(ActivateServicesToolWindow)<CR>
+nmap <leader>cs <Action>(ChangeSignature)<CR>
+set surround

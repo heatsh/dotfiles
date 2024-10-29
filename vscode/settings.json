@@ -1,0 +1,319 @@
+{
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.rulers": [
+    {
+      "column": 100,
+      "color": "#00ff1591"
+    },
+    {
+      "column": 120,
+      "color": "#ff0000"
+    }
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "maven.terminal.useJavaHome": true,
+  "java.jdt.ls.java.home": "C:\\Java\\jdk\\jdk-17.0.2",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "C:\\Program Files (x86)\\Amazon Corretto\\jdk1.8.0_282",
+      "default": true
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "C:\\Java\\jdk\\jdk-17.0.2"
+    }
+  ],
+  "editor.suggestSelection": "first",
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "editor.minimap.maxColumn": 100,
+  "prettier.singleQuote": true,
+  "powermode.presets": "flames",
+  "todohighlight.isEnable": true,
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/coverage/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  "css.lint.boxModel": "warning",
+  "less.lint.boxModel": "warning",
+  "scss.lint.boxModel": "warning",
+  "css.lint.float": "warning",
+  "css.lint.importStatement": "warning",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontLigatures": "'ss02', 'ss19'"
+  },
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "prettier.jsxSingleQuote": true,
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.quote": "'",
+  "files.autoSaveDelay": 3000,
+  "search.exclude": {
+    "**/coverage": true,
+    "**/dist": true
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.autoClosingTags": false,
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.trimAutoWhitespace": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+  "powermode.enabled": true,
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#135564",
+    "editor.findMatchBackground": "#0084ffb0",
+    "editor.findMatchHighlightBorder": "#006eff88"
+  },
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "always",
+    "source.organizeImports": "always",
+    "source.fixAll": "always"
+  },
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "yaml.schemas": {
+    "file:///c%3A/Users/ngs/.vscode/extensions/atlassian.atlascode-2.6.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.bitbucket.enabled": true,
+  "editor.renderWhitespace": "trailing",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.npm": "",
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "diffEditor.wordWrap": "off",
+  "editor.tabSize": 2,
+  "redhat.telemetry.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "js/ts.implicitProjectConfig.strictNullChecks": true,
+  "json.format.enable": false,
+  "editor.suggest.preview": true,
+  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "screencastMode.fontSize": 30,
+  "screencastMode.verticalOffset": 10,
+  "editor.guides.bracketPairs": true,
+  "vim.vimrc.enable": true,
+  "vim.easymotion": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-K>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-b>": false,
+    "<C-p>": false
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["g", "u"],
+      "commands": ["references-view.findReferences"]
+    },
+    {
+      "before": ["g", "n"],
+      "commands": [
+        "editor.action.marker.next",
+        "workbench.action.compareEditor.nextChange",
+        "merge-conflict.next"
+      ]
+    },
+    {
+      "before": ["g", "N"],
+      "commands": [
+        "editor.action.marker.prev",
+        "workbench.action.compareEditor.previousChange",
+        "merge-conflict.previous"
+      ]
+    },
+    {
+      "before": ["<leader>", "a", "b"],
+      "commands": ["merge-conflict.accept.both"]
+    },
+    {
+      "before": ["<leader>", "a", "c"],
+      "commands": ["merge-conflict.accept.current"]
+    },
+    {
+      "before": ["<leader>", "a", "i"],
+      "commands": ["merge-conflict.accept.incoming"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["workbench.action.debug.selectandstart"]
+    },
+    {
+      "before": ["<C-g>"],
+      "commands": ["workbench.view.scm"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.previousEditorInGroup"]
+    },
+    {
+      "before": ["<leader>", "J"],
+      "commands": ["workbench.action.moveEditorLeftInGroup"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.nextEditorInGroup"]
+    },
+    {
+      "before": ["<leader>", "K"],
+      "commands": ["workbench.action.moveEditorRightInGroup"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": ["workbench.action.files.newUntitledFile"]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": ["rest-client.request"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["test-explorer.run-test-at-cursor"]
+    },
+    {
+      "before": ["<leader>", "T"],
+      "commands": ["test-explorer.debug-test-at-cursor"]
+    },
+    {
+      "before": ["<leader>", "w", "j"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["<leader>", "w", "k"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<leader>", "w", "J"],
+      "commands": ["workbench.action.moveEditorToPreviousGroup"]
+    },
+    {
+      "before": ["<leader>", "w", "K"],
+      "commands": ["workbench.action.moveEditorToNextGroup"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["dendron.togglePreview"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["editor.debug.action.toggleBreakpoint"]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": ["testing.refreshTests"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["testing.runAtCursor"]
+    },
+    {
+      "before": ["<leader>", "T"],
+      "commands": ["testing.debugAtCursor"]
+    },
+    {
+      "before": ["g", "D"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["java.action.navigateToSuperImplementation"]
+    }
+  ],
+  "editor.formatOnSave": true,
+  "vim.foldfix": true,
+  "powermode.combo.threshold": 10,
+  "powermode.combo.location": "statusbar",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.timerEnabled": "default",
+  "powermode.shake.enabled": false,
+  "powermode.shake.intensity": 0,
+  "powermode.explosions.duration": 250,
+  "editor.lineNumbers": "relative",
+  "playwright.reuseBrowser": false,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vim.leader": " ",
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.workingDirectories": [],
+  "playwright.env": {},
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "switch:command",
+    "stash-push:command"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "editor.accessibilitySupport": "off",
+  "accessibility.signals.lineHasWarning": {
+    "sound": "auto"
+  },
+  "accessibility.signals.lineHasFoldedArea": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasBreakpoint": {
+    "sound": "off"
+  },
+  "accessibility.signals.noInlayHints": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineInserted": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineDeleted": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineModified": {
+    "sound": "off"
+  },
+  "debugpy.debugJustMyCode": false,
+  "accessibility.signals.progress": {
+    "sound": "off"
+  },
+  "screencastMode.keyboardOptions": {
+    "showKeys": false,
+    "showCommandGroups": true,
+    "showSingleEditorCursorMoves": true
+  },
+  "java.maven.downloadSources": true,
+  "java.configuration.maven.userSettings": "./settings.xml",
+  "java.import.generatesMetadataFilesAtProjectRoot": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "files.exclude": {
+    "**/target": true
+  },
+  "maven.executable.options": "-Ddatabase=h2",
+  "java.test.config": {
+    "args": ["-Ddatabase=h2"]
+  },
+  "java.autobuild.enabled": false,
+  "explorer.excludeGitIgnore": true,
+  "angular.view-engine": true,
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  }
+}

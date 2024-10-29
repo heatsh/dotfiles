@@ -1,0 +1,46 @@
+[push]
+    default = upstream
+[checkout]
+	defaultRemote = origin
+[core]
+	autocrlf = true
+[diff]
+	tool = bc3
+[difftool "bc4"]
+	path = C:/Program Files/Beyond Compare 4
+[difftool "bc3"]
+	path = C:/Program Files/Beyond Compare 4/BCompare.exe
+[alias]
+    unstaged = restore --staged
+	csame = commit --amend --no-edit
+	cam = commit --amend -m
+	cm = commit -m
+	unpushed = log @{u}.. --oneline
+	l = log --oneline
+	ln = log --oneline -n
+	edit = config --global --edit
+	ri = rebase -i
+	sl = stash list
+	sa = stash apply
+	ss = stash save -u
+	sd = stash drop
+	sp = stash pop
+	pb = push -u origin HEAD
+	dRemote = push origin -d
+	dLocal = branch -d
+	syncOrigin = fetch origin --prune
+	compare = "!git log --oneline \"$1\"..\"$2\""
+	untrack = update-index --assume-unchanged
+	track = update-index --no-assume-unchanged
+	cp = cherry-pick
+    setUpstream = remote set upstream
+	getHash = rev-parse
+	adog = log --all --decorate --oneline --graph
+	adogs = log --all --decorate --oneline --graph --stat
+[credential]
+	helper = wincred
+[url "https://"]
+	insteadOf = git://
+	insteadof = ssh://git@
+[merge "ours"]
+	driver = true
