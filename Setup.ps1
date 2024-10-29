@@ -4,16 +4,24 @@ $mappings = @(
     dest = "$PWD\Git\.gitconfig"
   },
   @{
-    source = "$Env:LOCALAPPDATA\nvim\"
-    dest = "$PWD\NeoVim\"
+    source = "$Env:USERPROFILE\vimfiles\"
+    dest = "$PWD\vimfiles\"
+  },
+  # @{
+  #   source = "$Env:LocalAppData\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\"
+  #   dest = "$PWD\WindowsTerminal"
+  # },
+  # @{
+  #   source = "$Env:LocalAppData\k9s\views.yml"
+  #   dest = "$PWD\K9s\views.yml"
+  # },
+  @{
+    source = "$Env:AppData\Code\User\settings.json"
+    dest = "$PWD\vscode\settings.json"
   },
   @{
-    source = "$Env:LocalAppData\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\"
-    dest = "$PWD\WindowsTerminal"
-  },
-  @{
-    source = "$Env:LocalAppData\k9s\views.yml"
-    dest = "$PWD\K9s\views.yml"
+    source = "$Env:AppData\Code\User\keybindings.json"
+    dest = "$PWD\vscode\keybindings.json"
   },
   @{
     source = "$Env:USERPROFILE\.ideavimrc"
